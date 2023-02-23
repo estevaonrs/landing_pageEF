@@ -111,7 +111,7 @@
   }
 
   .navbar-expand-md .navbar-toggler {
-    margin: -20px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
   }
   .bg-inverse {
     background: #fff !important;
@@ -142,7 +142,7 @@
     font-size: 14px;
   }
   #hero-area {
-    padding: 120px 0 01px;
+    padding: 200px 0 01px;
   }
   #hero-area .contents .btn {
     margin: 5px 10px 10px 0px;

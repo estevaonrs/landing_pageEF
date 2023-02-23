@@ -30,6 +30,7 @@ a {
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  
 }
 
 a:hover {
@@ -534,7 +535,6 @@ hr {
 .navbar-brand {
   position: relative;
   padding: 0px;
-  
 }
 
 .top-nav-collapse {
