@@ -152,48 +152,21 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-common {
-  background-color: #197aad;
-  position: relative;
-  z-index: 1;
-  text-transform: uppercase;
+  margin-right: 10px;
+  background-image: url(../img/hero-area14.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .btn-common2 {
-  background-color: #F63854;
-  position: relative;
-  z-index: 1;
-  text-transform: uppercase;
+  margin-right: 10px;
+  background-image: url(../img/hero-area6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 110%;
 }
 
-.btn-common:hover {
-  color: #333;
-  background: #197aad;
-  border: 1px dotted #333;
-  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
-  transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
-}
-
-.btn-border {
-  color: #F63854;
-  background-color: transparent;
-  border: 1px solid #F63854;
-  border-radius: 30px;
-  text-transform: uppercase;
-}
-
-.btn-border:hover {
-  color: #fff;
-  border-color: #F63854;
-  background-color: #F63854;
-}
-
-.btn-border:focus {
-  color: #fff;
-  border-color: #F63854;
-  background-color: #F63854;
-}
 
 .btn-lg {
   padding: 14px 33px;
@@ -207,9 +180,6 @@ a:not([href]):not([tabindex]) {
   text-transform: capitalize;
 }
 
-.btn-rm:hover {
-  color: #F63854;
-}
 
 button:focus {
   outline: none !important;
@@ -349,15 +319,15 @@ a.back-to-top:hover, a.back-to-top:focus {
 .section-padding {
   padding: 60px 0;
   
- 
-  
 }
 .section-padding2 {
   padding: 60px 0;
-  background-image: url(../img/hero-area6.jpg);
+  background-image: url(../img/hero-area13.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  
 }
 
 hr {
@@ -399,7 +369,10 @@ hr {
   line-height: 22px;
   margin-top: 30px;
   border-radius: 3px;
-  background-color: #05508a;
+  background-image: url(../img/hero-area14.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-transition: all .3s ease-in-out;
   -mox-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -461,7 +434,7 @@ hr {
 /* Services Item */
 .services-item {
 
-  background-color: #05508a;
+  background-image: url(../img/hero-area14.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -561,6 +534,7 @@ hr {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  
 }
 
 .top-nav-collapse {
@@ -579,7 +553,7 @@ hr {
 }
 
 .top-nav-collapse .navbar-brand img {
-  width: 40%;
+  width: 20%;
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
@@ -607,7 +581,7 @@ hr {
 }
 
 .navbar-brand img {
-  width: 30%;
+  width: 20%;
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
@@ -699,94 +673,6 @@ hr {
   color: #preset;
 }
 
-.dropdown-toggle::after {
-  display: none;
-}
-
-.dropdown-menu {
-  margin: 0;
-  padding: 0;
-  display: none;
-  position: absolute;
-  z-index: 99;
-  min-width: 210px;
-  background-color: #fff;
-  white-space: nowrap;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  animation: fadeIn 0.4s;
-  -webkit-animation: fadeIn 0.4s;
-  -moz-animation: fadeIn 0.4s;
-  -o-animation: fadeIn 0.4s;
-  -ms-animation: fadeIn 0.4s;
-}
-
-.dropdown-menu:before {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  bottom: 100%;
-  left: 20%;
-  margin-left: -5px;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-bottom: 10px solid #fff;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-  position: absolute;
-  text-align: left;
-  top: 100%;
-  border: none;
-  animation: fadeIn 0.4s;
-  -webkit-animation: fadeIn 0.4s;
-  -moz-animation: fadeIn 0.4s;
-  -o-animation: fadeIn 0.4s;
-  -ms-animation: fadeIn 0.4s;
-}
-
-.dropdown .dropdown-menu .dropdown-item {
-  width: 100%;
-  padding: 12px 20px;
-  font-size: 14px;
-  color: #333;
-  border-bottom: 1px solid #f1f1f1;
-  text-decoration: none;
-  display: inline-block;
-  float: left;
-  clear: both;
-  position: relative;
-  outline: 0;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-}
-
-.dropdown .dropdown-menu .dropdown-item:last-child {
-  border-bottom: none;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-
-.dropdown .dropdown-menu .dropdown-item:first-child {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-}
-
-.dropdown .dropdown-item:focus,
-.dropdown .dropdown-item:hover,
-.dropdown .dropdown-item.active {
-  color: #F63854;
-  background: #f7f7f7;
-}
-
-.dropdown-item.active, .dropdown-item:active {
-  background: transparent;
-}
 
 .fadeInUpMenu {
   -webkit-animation-name: fadeInUpMenu;
@@ -797,7 +683,7 @@ hr {
 3. Hero Area
 ========================================================================== */
 #hero-area {
-  background-image: url(../img/hero-area8.jpg);
+  background-image: url(../img/hero-area13.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -829,7 +715,8 @@ hr {
 
 #hero-area .contents .header-button .btn {
   margin-right: 10px;
-  background-color: #0d8a05;
+  background-image: url(../img/hero-area6.jpg);
+  
 }
 
 .sloder-img {
@@ -1068,7 +955,7 @@ hr {
 .testimonial {
   position: relative;
   padding: 60px 0;
-  background-image: url(../img/hero-area6.jpg);
+  background-image: url(../img/hero-area13.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
