@@ -13,7 +13,7 @@
     font-size: 30px;
   }
   .team-item .contetn {
-    padding: 15px 20px;
+    padding: 5px 10px;
   }
 }
 
@@ -175,8 +175,12 @@
   #cta .btn {
     float: left;
   }
-  .team-item .team-img {
+  .team-item {
     width: 50%;
+  }
+
+  .team-item .team-img {
+    width: 90%;
     float: none;
   }
   .team-item .contetn {
